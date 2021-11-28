@@ -100,12 +100,13 @@ input{
 }
 .award h1{
     font-size: 36px;
+    margin-top: 20px;
     margin-bottom: 10px;
     
 }
 .award p{
     font-size: 22px;
-    margin-bottom: 10px;
+  
 }
 .award{
     margin: 50px 30px 20px 30px;
@@ -123,8 +124,8 @@ input{
     cursor: pointer;
 }
 .award .award-bg{
-    height: 150px;
-    padding: 30px 0;
+    height: 170px;
+    
     background: url("../images/awards-logo-small.png");
     background-position: center;
     background-repeat: no-repeat;

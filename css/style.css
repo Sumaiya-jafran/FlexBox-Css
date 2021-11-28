@@ -12,20 +12,35 @@
     background-size: cover;
     
 }
+.row{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 13, 13, 0.7);
+}
 .hero{
     width: 100%;
-    height: 90vh;
-    background-color: rgba(14, 13, 13, 0.7);
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+}
+.hero-footer{
+    margin: 30px;
+    position: relative;
+    top: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
+}
+.hero-footer p{
+    color: white;
 }
  .hero-content{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
  } 
  .hero-content p{
    padding: 20px 0; 
@@ -37,11 +52,36 @@ h1{
     font-weight: 700;
     color: white;
 }
-
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sb{
+    border: none;
+    padding: 13px;
+    background-color: white;
+}
+.sb .fas{
+    color: gray;
+    font-size: 18px;
+}
+.sb .fas:hover{
+    color: black;
+    cursor: pointer;
+}
+.search-btn{   
+    border-radius: 10px 0 0 10px;
+}
+.search-btn-last{
+    border-radius: 0px 10px 10px 0px;
+}
 input{
-    padding: 10px;
-    border-radius: 7px;
+    padding: 15px;
+    border-radius: 0px;
     width: 60vw;
+    border: none;
 }
 .btn{
     width: 100px;
@@ -57,4 +97,56 @@ input{
     color: white;
     border-color: white;
     transition: .7s ease;
+}
+.award h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+}
+.award p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.award{
+    margin: 50px 30px 20px 30px;
+    padding: 20px 0;
+    background-color: rgb(22, 22, 22);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.award:hover{
+    background-color: #1D1D1D;
+    cursor: pointer;
+}
+.award .award-bg{
+    height: 150px;
+    padding: 30px 0;
+    background: url("../images/awards-logo-small.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery .row-img{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-content: center;
+    margin: 50px 30px 20px 30px;
+   
+}
+.gallery .row-img .col-img{
+    display: flex;
+    flex-direction: column;
+    
+   
+    width: 32.5%;
+}
+.gallery .row-img .col-img img {
+    padding-top: 20px;
+    width: 100%;
 }

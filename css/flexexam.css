@@ -34,6 +34,13 @@ img{
     width: auto;
 
 }
+hr.ver{
+    width: 160px;
+    border-top: 1px solid rgb(227, 227, 228);
+}
+hr.hori{
+    border: 1px solid rgb(227, 227, 228);
+}
 h2{
     font-size: 13px;
     font-weight: 400;

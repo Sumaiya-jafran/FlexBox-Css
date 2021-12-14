@@ -35,13 +35,13 @@ img{
 
 }
 h2{
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     margin: 15px;
     color: gray;
 }
 h3{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     color: #0066F9;
     text-align: center;
@@ -59,6 +59,7 @@ button{
     border-radius: 10px;
     border: 1px solid #b5dbfc;
     color: #0066F9;
+    background-color: white;
 }
 .blue-btn{
     background-color: #48AAFF;
